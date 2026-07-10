@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets and environment files
+.env
+*.env
+*.key
+*.pem
+credentials*.json
+service_account*.json
+
+# Private / raw manufacturing data
+data/
+raw_data/
+input/
+output/
+exports/
+reports/
+dashboard_snaps/
+
+# Generated files
+*.csv
+*.xlsx
+*.xls
+*.json
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Keep sanitized portfolio examples
+!sample_data/*.csv
+!sample_data/*.json
+!sample_output/*.csv
+!sample_output/*.json
+!sample_output/*.png
+!config/*.csv
+!config/*.json
+
+# Temporary / backup files
+*backup*
+*bup*
+*_old*
+*.log
