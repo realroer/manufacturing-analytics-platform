@@ -12,6 +12,7 @@ This architecture improves maintainability, scalability, and future extensibilit
 
 # High-Level Architecture
 
+```text
 Manufacturing Test Systems
         │
         ▼
@@ -45,6 +46,7 @@ Report Builder
                │
                ▼
 Dashboard Export
+```
 
 ---
 
